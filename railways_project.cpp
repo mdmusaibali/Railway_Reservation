@@ -104,7 +104,7 @@ LOOP:
                     case 1:
                         fseek(stdin, 0, SEEK_END);
                         fp = fopen(date, "r");
-                        cout << "\nEnter the name of passanger or mobile number to check reservation: ";
+                        cout << "\nEnter the mobile number of passenger to check reservation: ";
                         cin >> name;
                         int line, col;
                         indexOf(fp, name, &line, &col);
